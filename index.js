@@ -15,7 +15,7 @@ app.post("/translate", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Render Puppeteer server is up and running!");
+  res.send("Translate server is up and running!");
 });
 
 app.listen(PORT, () => {
